@@ -17,14 +17,27 @@
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "playPretend", sans-serif;
+}
+
+p{
+    font-family: "madeTommy", sans-serif;
+}
+
 button{
-    
     font-family: "playPretend", sans-serif;
     border: 1px solid #3399FF;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
     background-color: #3399FF;
 }
+
 button:hover{
     border: 1px solid #FFC835;
 }
@@ -33,10 +46,18 @@ button a {
     color: #FFC835;
 }
 
-h1{
-    font-family: "playPretend", sans-serif;
+
+input{
+    border: 1px solid #3399FF;
+    border-radius: 10px;
+    font-family: "madeTommy", sans-serif;
+    padding: 5px;
 }
 
-p{
-    font-family: "madeTommy", sans-serif;
+input:focus{
+    outline-color: #3399FF;
+}
+
+input.mobile{
+    background-color: #3399FF;
 }

@@ -1,17 +1,10 @@
-<?php
-/*ICI JE SUIS DANS LA VIEW
-    - Je possède le HTML pour l'affichage au Client
-*/
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperQuizz - Home</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <main>
     <h1>SuperQuizz</h1>
@@ -26,4 +19,7 @@
             <a href="#">Inscription</a>
         </button>
     </div>
+    <input type="text">
+    <input type="text" class="mobile">
+
 </main>

@@ -1,0 +1,29 @@
+header{
+    background-color: #3399FF;
+}
+
+header nav h1{
+    color: #FFCD29;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo,
+img.user{
+    height: auto;
+    width: 5em;
+}
+
+p.yellow{
+    color: #FFC835;
+}
+
+
+nav div{
+    display: flex;
+    flex-direction: column;
+}
