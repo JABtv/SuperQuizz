@@ -19,7 +19,5 @@
             <a href="#">Inscription</a>
         </button>
     </div>
-    <input type="text">
-    <input type="text" class="mobile">
 
 </main>
