@@ -1,21 +1,20 @@
 @font-face {
-    font-family: "madeTommy";
-    font-weight: normal;
-    src: url("../src/fonts/madeTommy.otf") format("opentype");
-
+  font-family: "madeTommy";
+  font-weight: normal;
+  src: url("../src/fonts/madeTommy.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "playPretend";
-    font-weight: normal;
-    src: url("../src/fonts/playPretend.otf") format("opentype");
+  font-family: "playPretend";
+  font-weight: normal;
+  src: url("../src/fonts/playPretend.otf") format("opentype");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 h1,
@@ -23,42 +22,45 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    font-family: "playPretend", sans-serif;
+h6 {
+  font-family: "playPretend", sans-serif;
 }
 
-p{
-    font-family: "madeTommy", sans-serif;
+p {
+  font-family: "madeTommy", sans-serif;
 }
 
-button{
-    font-family: "playPretend", sans-serif;
-    border: 1px solid #3399FF;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #3399FF;
+button {
+  font-family: "playPretend", sans-serif;
+  border: 1px solid #3399ff;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #3399ff;
 }
 
-button:hover{
-    border: 1px solid #FFC835;
+button:hover {
+  border: 3px solid #ffc835;
+}
+
+button:active {
+  background-color: #ffc835;
 }
 
 button a {
-    color: #FFC835;
+  color: #ffc835;
 }
 
-
-input{
-    border: 1px solid #3399FF;
-    border-radius: 10px;
-    font-family: "madeTommy", sans-serif;
-    padding: 5px;
+input {
+  border: 1px solid #3399ff;
+  border-radius: 10px;
+  font-family: "madeTommy", sans-serif;
+  padding: 5px;
 }
 
-input:focus{
-    outline-color: #3399FF;
+input:focus {
+  outline-color: #3399ff;
 }
 
-input.mobile{
-    background-color: #3399FF;
+input.mobile {
+  background-color: #3399ff;
 }
