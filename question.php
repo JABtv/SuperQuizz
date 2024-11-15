@@ -8,6 +8,6 @@ $numberQuestion = 1;
 
 
 
-include './view/view_question.php';
-include './view/view_footer.php';
+include './views/view_question.php';
+include './views/view_footer.php';
 ?>
