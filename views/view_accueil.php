@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperQuizz - Home</title>
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="./style/accueil.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/accueil.css">
 </head>
 <main>
     <div class="right">
-        <h1>SuperQuizz</h1>
+        <h2>SuperQuizz</h2>
         <img src="src/imgs/logo.png" alt="logo quizz">
     </div>
     <div class="left">
@@ -21,12 +21,11 @@
         </div>
         <div class="btn">
             <button>
-                <a href="superQuizz/controllers/controller_connexion.php">Connexion</a>
+                <a href="controller_connexion.php">Connexion</a>
             </button>
             <button>
-                <a href="../controller_inscription.php">Inscription</a>
+                <a href="controller_inscription.php">Inscription</a>
             </button>
         </div>
     </div>
-
 </main>

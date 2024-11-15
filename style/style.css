@@ -26,6 +26,13 @@ h6 {
   font-family: "playPretend", sans-serif;
 }
 
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+
 p {
   font-family: "madeTommy", sans-serif;
 }
@@ -35,11 +42,13 @@ button {
   border: 1px solid #3399ff;
   border-radius: 20px;
   padding: 10px;
+  margin: 1em;
   background-color: #3399ff;
 }
 
 button:hover {
   border: 3px solid #ffc835;
+  margin: 11px;
 }
 
 button:active {
@@ -50,11 +59,16 @@ button a {
   color: #ffc835;
 }
 
+button {
+  color: #ffc835;
+}
+
 input {
   border: 1px solid #3399ff;
   border-radius: 10px;
   font-family: "madeTommy", sans-serif;
   padding: 5px;
+  margin: 1em;
 }
 
 input:focus {
@@ -63,4 +77,9 @@ input:focus {
 
 input.mobile {
   background-color: #3399ff;
+}
+
+.forgetPassword {
+  padding: 0;
+  margin: 0;
 }
