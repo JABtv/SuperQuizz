@@ -9,7 +9,7 @@
 
 </head>
 <main>
-    <h1>Nouveau Quizz</h1>
+    <h2>Nouveau Quizz</h2>
     <form method="POST">
         <label for="title">Titre</label>
         <input type="text" name="title" id="title"/>
