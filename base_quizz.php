@@ -7,7 +7,7 @@ include './utils/functions.php';
 
 
 
-include './view/view_base_quizz.php';
-include './view/view_footer.php';
+include './views/view_base_quizz.php';
+include './views/view_footer.php';
 ?>
 
