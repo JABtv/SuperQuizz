@@ -5,7 +5,7 @@
             <h3>Navigation</h3>
             <ul>
                 <li>
-                    <a href="#">Acceuil</a>
+                    <a href="index.php">Acceuil</a>
                 </li>
                 <li>
                     <a href="#">Compte</a>
