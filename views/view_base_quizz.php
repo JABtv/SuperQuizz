@@ -25,6 +25,6 @@
             <label for="frontend"><input type="radio" name="category" id="frontend">Frontend</label>
             <label for="backend"><input type="radio" name="category" id="backend">Backend</label>
         </div>
-        <input type="submit" class="button" value="Valider et passer aux questions"/>
+        <button type="submit">Valider et passer aux questions</button>
     </form>
 </main>
