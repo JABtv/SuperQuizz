@@ -8,13 +8,8 @@
 //J'INCLUS / IMPORTE MES FICHIERS DE RESSOURCES (model, fonction utilitaire)
 include './utils/functions.php';
 
-//Déclaration de ma varibale d'affichage
-//Permet de dire à la View quelles sont les données à afficher
-$message = "";
-$listArticle = "";
-
 
 //Inclure ma Vue : view_accueil.php
-include './view/view_accueil.php';
-include './view/view_footer.php';
+include './views/view_accueil.php';
+include './views/view_footer.php';
 ?>
