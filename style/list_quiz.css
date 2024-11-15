@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+    grid-gap: 10px; /* Espace entre les images */
+}
+
+.boxquiz {
+    overflow: hidden; /* Pour éviter que l'image déborde */
+}
+
+.boxquiz img {
+    width: 100%; /* L'image prend toute la largeur de la colonne */
+    height: auto; /* Garde le ratio d'aspect */
+    display: block; /* Supprime l'espace en bas de l'image */
+    transition: transform 0.3s; /* Effet de transition */
+}
+
+.boxquiz img:hover {
+    transform: scale(1.05); /* Zoom sur l'image au survol */
+}
