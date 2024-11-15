@@ -11,7 +11,7 @@
 <main>
     <?php echo "<p>$quizzName</p>" ?>
     <?php echo "<p>Question {$numberQuestion}/5</p>" ?>
-    <h1>Reponses</h1>
+    <h2>Reponses</h2>
     <form method="POST">
         <p>Correct</p>
         <label for="answerA">Réponse A</label>
