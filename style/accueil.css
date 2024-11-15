@@ -41,6 +41,13 @@ div.btn button {
   align-items: center;
 }
 
+.btn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
 button {
   width: 10em;
   font-size: 24px;
