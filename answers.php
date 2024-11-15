@@ -6,6 +6,6 @@ $quizzName = "PHP";
 $numberQuestion = 1;
 
 
-include './view/view_answers.php';
-include './view/view_footer.php';
+include './views/view_answers.php';
+include './views/view_footer.php';
 ?>
