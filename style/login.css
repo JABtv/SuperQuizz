@@ -18,14 +18,15 @@ article {
   transform: translate(-50%, -50%); /* Centre la div */
 }
 
-article div {
+article div.container {
   position: absolute; /* Positionnement absolu */
   top: 50%; /* Positionne à 50% de la hauteur */
   left: 50%; /* Positionne à 50% de la largeur */
   transform: translate(-50%, -50%); /* Centre la div */
   text-align: center;
-  width: 400px;
+  width: auto;
   height: auto;
+  flex-direction: column;
 }
 
 fieldset {
