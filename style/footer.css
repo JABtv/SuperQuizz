@@ -1,41 +1,49 @@
-footer{
-    background-color: #3399FF;
-    width: auto;
-    list-style: none;
-    text-decoration: none;
-
-
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer {
+  background-color: #3399ff;
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-.container{
-    padding: 1.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.container {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer li a,
-footer p{
-    font-family: "madeTommy";
-    font-size: 16px;
-    font-weight: lighter;
-    color: #FFCD29;
+footer p {
+  font-family: "madeTommy";
+  font-size: 16px;
+  font-weight: lighter;
+  color: #ffcd29;
 }
 
-h3{
-    color: #FFCD29;
+h3 {
+  color: #ffcd29;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-shadow:
+    1px 1px 0px black,
+    -1px -1px 0px black,
+    1px -1px 0px black,
+    -1px 1px 0px black,
+    1px 0px 0px black,
+    -1px 0px 0px black,
+    0px 1px 0px black,
+    0px -1px 0px black;
 }
 
-img.linkedin{
-    width: 5em;
-    margin-right: 2em;
+img.linkedin {
+  width: 5em;
+  margin-right: 2em;
 }
 
-img.adrar{
-    width: 10em;
-    margin-left: 2em;
+img.adrar {
+  width: 10em;
+  margin-left: 2em;
 }

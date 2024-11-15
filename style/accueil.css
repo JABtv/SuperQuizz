@@ -1,12 +1,17 @@
 main {
   display: flex;
+  flex-direction: row;
   padding: 2em;
+  position: absolute; /* Positionnement absolu */
+  top: 50%; /* Positionne à 50% de la hauteur */
+  left: 50%; /* Positionne à 50% de la largeur */
+  transform: translate(-50%, -50%); /* Centre la div */
 }
 
 main img {
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   height: auto;
-  width: 45em;
+  width: auto;
 }
 .right {
   text-align: center;
@@ -25,13 +30,12 @@ main img {
   padding: 2em;
 }
 
-div.text {
-}
-
-div.text h2.textAuth {
-  font-family: "madeTommy", sans-serif;
+p.textAuth {
+  color: black;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1em;
   font-size: 26px;
-  font-weight: normal;
 }
 
 .text p {

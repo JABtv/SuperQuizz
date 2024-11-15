@@ -1,36 +1,40 @@
-header{
-    background-color: #3399FF;
-    padding: 0 1em 0 1em;
-    width: auto;
+header {
+  background-color: #3399ff;
+  padding: 0 1em 0 1em;
+  width: auto;
 }
 
-header nav h1{
-    color: #FFCD29;
-    cursor: default;
+header nav h1 {
+  color: #ffcd29;
+  cursor: default;
+  text-shadow:
+    1px 1px 0px black,
+    -1px -1px 0px black,
+    1px -1px 0px black,
+    -1px 1px 0px black,
+    1px 0px 0px black,
+    -1px 0px 0px black,
+    0px 1px 0px black,
+    0px -1px 0px black;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav h1{
-    font-size: 24px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img.logo,
-img.user{
-    height: auto;
-    width: 5em;
+img.user {
+  height: auto;
+  width: 5em;
 }
 
-p.yellow{
-    color: #FFCD29;
+p.yellow {
+  color: #ffcd29;
 }
 
-
-nav div{
-    display: flex;
-    flex-direction: column;
+nav div {
+  display: flex;
+  flex-direction: column;
 }
