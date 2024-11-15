@@ -25,6 +25,7 @@ h4,
 h5,
 h6 {
   font-family: "playPretend", sans-serif;
+  cursor: default;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h2 {
 
 p {
   font-family: "madeTommy", sans-serif;
+  cursor: default;
 }
 
 button {
@@ -68,7 +70,8 @@ button {
   color: #ffc835;
 }
 
-input {
+input,
+textarea {
   border: 1px solid #3399ff;
   border-radius: 10px;
   font-family: "madeTommy", sans-serif;
@@ -76,7 +79,8 @@ input {
   margin: 1em;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   outline-color: #3399ff;
 }
 
