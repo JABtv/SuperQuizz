@@ -7,7 +7,7 @@ $numberQuestion = 1;
 
 
 
-
+include './views/view_header.php';
 include './views/view_question.php';
 include './views/view_footer.php';
 ?>
