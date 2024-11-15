@@ -1,6 +1,5 @@
 footer {
   background-color: #3399ff;
-  width: auto;
   list-style: none;
   text-decoration: none;
   position: absolute;
@@ -26,6 +25,17 @@ footer p {
 
 h3 {
   color: #ffcd29;
+  font-size: 25px;
+  margin-bottom: 1em;
+  text-shadow:
+    1px 1px 0px black,
+    /* Ombre droite */ -1px -1px 0px black,
+    /* Ombre gauche */ 1px -1px 0px black,
+    /* Ombre en haut à droite */ -1px 1px 0px black,
+    /* Ombre en bas à gauche */ 1px 0px 0px black,
+    /* Ombre à droite */ -1px 0px 0px black,
+    /* Ombre à gauche */ 0px 1px 0px black,
+    /* Ombre en bas */ 0px -1px 0px black; /* Ombre en haut */
 }
 
 img.linkedin {

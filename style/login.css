@@ -11,8 +11,8 @@ article {
   flex-direction: column;
   text-align: center;
   position: absolute;
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
   top: 50%; /* Positionne à 50% de la hauteur */
   left: 50%; /* Positionne à 50% de la largeur */
   transform: translate(-50%, -50%); /* Centre la div */
@@ -24,7 +24,7 @@ article div.container {
   left: 50%; /* Positionne à 50% de la largeur */
   transform: translate(-50%, -50%); /* Centre la div */
   text-align: center;
-  width: auto;
+  width: 50%;
   height: auto;
   flex-direction: column;
 }
