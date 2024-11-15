@@ -9,6 +9,6 @@
 
 </head>
 <main>
-    <h2>Quizz PHP créé avec succès!</h2>
+    <h2>Quizz <?php echo $quizzName ?> créé avec succès!</h2>
     <button>Retour a la page d'accueil</button>
 </main>
