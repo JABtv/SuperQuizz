@@ -1,4 +1,5 @@
 <?php
+/*
 //Fonction qui teste les données du formulaire
 //Param : void
 //Return : array["nom"=>string,"contenu"=>string,"erreur"=>string]
@@ -34,24 +35,30 @@ $message = addUser($tab["nom"],$tab["contenu"]);
 }
 
 //Je conserve les articles récupérés depuis la BDD dans $data
-$data = readArticles();
 
-//Je vérifie si $data est un tableau de donnée ou une string d'erreur
-if(gettype($data) == "string"){
-//Ici je suis dans le cas où il y a eu une erreur (catch())
-$listArticle = $data;
-}else{
-//Ici tout s'est bien passé, j'ai mon tableau de donné
 
-//Je mets en forme les articles récupérés en BDD
-//1er Etape : parcourir mon tableau de donnée $data
-foreach($data as $article){
-//Chaque $article est un tableau associatif dont les clés correspondent à mes colonnes de ma table articles dans la BDD
-$listArticle = $listArticle."<article style='border-bottom : 3px solid black'>
-    <p>numéro de l'article : {$article['id_article']}</p>
-    <p>nom de l'article : {$article['nom_article']}</p>
-    <p>contenu de l'article : {$article['contenu_article']}</p>
-</article>";
-}
-}
+*/
 ?>
+
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/login.css">
+<main>
+    <article>
+        <div class="container">
+            <h2>Inscription</h2>
+            <form method="post" action="inscription.php">
+                <div class="username">
+                    <input type="text" name="nom" placeholder="Nom">
+                    <input type="text" name="prenom" placeholder="Prenom">
+                </div>
+                <input type="text" name="pseudo" placeholder="Pseudo*" required>
+                <input type="email" name="email" placeholder="Email*" required>
+                <input type="password" name="password" placeholder="Mot de Passe*" required>
+                <input type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" required>
+
+                <button type="submit">S'inscrire'</button>
+            </form>
+            <a href="controller_connexion.php">J'ai déjà un compte</a>
+        </div>
+    </article>
+</main>
