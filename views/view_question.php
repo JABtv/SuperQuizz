@@ -10,7 +10,7 @@
 </head>
 <main>
     <?php echo "<p>$quizzName</p>" ?>
-    <h1>Question <?php echo $numberQuestion ?>/5 </h1>
+    <h2>Question <?php echo $numberQuestion ?>/5 </h2>
     <form method="POST">
         <label for="title">Titre</label>
         <input type="text" name="title" id="title"/>
