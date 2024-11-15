@@ -24,6 +24,12 @@ main img {
   padding: 2em;
 }
 
+h3.textAuth {
+  font-family: "madeTommy", sans-serif;
+  color: black;
+  margin-top: 1em;
+}
+
 div.text h2.textAuth {
   font-family: "madeTommy", sans-serif;
   font-size: 26px;

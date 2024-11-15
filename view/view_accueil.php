@@ -16,7 +16,7 @@
         <div class="box">
             <div class="text">
                 <p>Bienvenue dans l’espace SuperQuizz de la Team Pole Numérique pensé pour entrainer les stagiaires aux différents domaines du développement, que ce soit frontend ou backend. Il s’agit de quizz variés portant sur le développement backend ou frontend de type QCM. Alors c’est parti pour s’exercer en s’amusant!</p>
-                <h2 class="textAuth">Authentifiez vous pour accéder aux quizz</h2>
+                <h3 class="textAuth">Authentifiez vous pour accéder aux quizz</h3>
             </div>
         </div>
         <div class="btn">
