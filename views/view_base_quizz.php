@@ -17,7 +17,7 @@
         <textarea name="description" id="description" rows="5" cols="30">  
         </textarea>
         <label for="image">Image</label>
-        <div>
+        <div class="inputImage">
             <i class="fa-solid fa-image" style=""></i>
             <input type="text" name="image" id="image"/>
         </div>
