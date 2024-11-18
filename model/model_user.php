@@ -137,5 +137,36 @@ class ModelUser{
             return $error->getMessage();
         }
     }
+
+    //Fonction pour récupérer un utilisateurs en BDD selon un login précis
+    //Param : string
+    //Return : array | string
+    function readUserByAvatar():array | string{
+        //1Er Etape : Instancier l'objet de connexion PDO
+        $bdd = new PDO('mysql:host=localhost;dbname=superquizz','root','',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+
+        //Récupération du login depuis l'objet
+        $avatar = $this->avatar;
+
+        //Try...Catch
+        try{
+            //2nd Etape : préparer ma requête SELECT
+            $req = $bdd->prepare('SELECT id_users, lastname, firstname, email, pwd, avatar, id_role_user FROM users WHERE avatar = ?');
+
+            //3Eme Etape : introduire le login de l'utilisateur dans ma requête avec du Binding de Paramètre
+            $req->bindParam(1,$avatar,PDO::PARAM_STR);
+
+            //4eme Etape : executer la requête
+            $req->execute();
+
+            //5eme Etape : Récupère les réponses de la BDD
+            $data = $req->fetchAll(PDO::FETCH_ASSOC);
+
+            //6eme Etape : je retourne mes $data
+            return $data;
+        }catch(EXCEPTION $error){
+            return $error->getMessage();
+        }
+    }
 }
 ?>
