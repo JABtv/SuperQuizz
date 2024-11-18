@@ -10,8 +10,8 @@
 <body>
     <main>
         <div class="boxplay">
-    <p id="titrequiz">Quiz</p>
-    <button><a href="./view_list_quiz">Liste des quiz</a></button>
+    <p>Quiz</p>
+    <button><a href="./controller_list_quiz.php">Liste des quiz</a></button>
 </div>
     </main>
     

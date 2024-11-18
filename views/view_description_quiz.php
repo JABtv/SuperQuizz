@@ -19,9 +19,8 @@
         </div>
         <div class="btndescription">
             <button>
-                <a href="controller_connexion.php">Commencer</a>
+                <a href="./controller_quiz.php">Commencer</a>
             </button>
     </main>
-
 </body>
 </html>
