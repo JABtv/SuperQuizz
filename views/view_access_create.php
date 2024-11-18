@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuperQuizz - Accès formateur</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/access_create.css">
+    <title>SuperQuizz - Home</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/access_create.css">
 </head>
 <body>
     <main>
-        <div class="buttonBox">
+        <section class="btnBox">
             <h2>Acceder aux quizz</h2>
             <button>Jouer</button>
-        </div>
-        <div class="buttonBox">
+        </section>
+        <section class="buttonBox">
             <h2>Creer un quizz</h2>
             <button>Creer</button>
-        </div>
+        </section>
     </main>

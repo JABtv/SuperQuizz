@@ -2,10 +2,10 @@ main {
   display: flex;
   flex-direction: row;
   padding: 2em;
-  position: absolute; /* Positionnement absolu */
-  top: 50%; /* Positionne à 50% de la hauteur */
-  left: 50%; /* Positionne à 50% de la largeur */
-  transform: translate(-50%, -50%); /* Centre la div */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 main img {

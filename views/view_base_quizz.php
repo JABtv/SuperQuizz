@@ -11,22 +11,20 @@
 </head>
 <main>
     <h2>Nouveau Quizz</h2>
-    <form method="POST">
-        <div class="inputBox">
-            <label for="title">Titre</label>
+    <form id="newQuizz" method="POST">
+        <label for="title">
+            Titre
             <input type="text" name="title" id="title"/>
-        </div>
-        <div class="inputBox">
-        <label for="description">Description</label>
-            <textarea name="description" id="description" rows="5" cols="30">  
-            </textarea>
-        </div>
-        <div class="inputBox">
-            <label for="image">Image</label>
-            <div>
-                <i class="fa-solid fa-image" style=""></i>
-                <input type="text" name="image" id="image"/>
-            </div>
+        </label>
+        <label for="description">
+            Description
+        </label>
+        <textarea name="description" id="description" rows="5" cols="30">  
+        </textarea>
+        <label for="image">Image</label>
+        <div class="inputImage">
+            <i class="fa-solid fa-image" style=""></i>
+            <input type="text" name="image" id="image"/>
         </div>
         <div id="categoryChoice">
             <label for="frontend"><input type="radio" name="category" id="frontend">Frontend</label>
