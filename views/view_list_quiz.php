@@ -12,36 +12,36 @@
     <h2>Liste des Quiz</h2>
     <div class="gallery">
         <div class="boxquiz">
-            <a href="#"><img src="/imgs/logophp.png" alt="PHP"></a>
-            <h3 class="titlequiz">PHP</h3>
+            <a href="#"><img src="./src/imgs/php_logo.png" alt="PHP"></a>
+            <a href="#">PHP</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image2.jpg" alt="Les metiers frontend"></a>
-            <h3 class="titlequiz">Les metiers frontend</h3>
+            <a href="#"><img src="./src/imgs/metiers_logo.png" alt="Les metiers frontend"></a>
+            <a href="#">Les metiers frontend</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image3.jpg" alt="HTML"></a>
-            <h3 class="titlequiz">HTML</h>
+            <a href="#"><img src="./src/imgs/html_logo.png" alt="HTML"></a>
+            <a href="#">HTML</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image3.jpg" alt="SQL"></a>
-            <h3 class="titlequiz">SQL</h3>
+            <a href="#"><img src="./src/imgs/sql_logo.png" alt="SQL"></a>
+            <a href="#">SQL</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image3.jpg" alt="Javascript"></a>
-            <h3 class="titlequiz">Javascript</h3>
+            <a href="#"><img src="./src/imgs/js_logo.png" alt="Javascript"></a>
+            <a href="#">Javascript</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image3.jpg" alt="React"></a>
-            <h3 class="titlequiz">React</h3>
+            <a href="#"><img src="./src/imgs/react_logo.png" alt="React"></a>
+            <a href="#">React</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image3.jpg" alt="Docker"></a>
-            <h3 class="titlequiz">Docker</h3>
+            <a href="#"><img src="./src/imgs/docker_logo.png" alt="Docker"></a>
+            <a href="#">Docker</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="image3.jpg" alt="Bootstrap"></a>
-            <h3 class="titlequiz">Bootstrap</h3>
+            <a href="#"><img src=./src/imgs/bootstrap_logo.png alt="Bootstrap"></a>
+            <a href="#">Bootsrap</a>
         </div>
 
     </main>

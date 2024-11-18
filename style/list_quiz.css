@@ -14,9 +14,11 @@ h2{
     color: black;
     font-size: 15px;
 }
+
 main {
     height: 50vh;
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -24,15 +26,31 @@ main {
 }
 
 .boxquiz {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border: 3px solid #3399ff;
+    border-radius:25px ;
+    background-color: hsl(210, 100%, 60%, 10%);
+}
+
+a img{
+    text-align: center;
 }
 
 .boxquiz img {
-    width: 100%; 
-    height: auto; /* Garde le ratio d'aspect */
+    width: 100px;
+    object-fit: contain;
+    aspect-ratio: 1/1; /* Garde le ratio d'aspect */
     display: block; /* Supprime l'espace en bas de l'image */
-    transition: transform 0.3s; /* Effet de transition */
 }
 
+
+.boxquiz a{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    font-family: "playPretend", sans-serif;
+    color: black;
+    margin-top: 5px;
+}
