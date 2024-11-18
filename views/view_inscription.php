@@ -46,16 +46,16 @@ $message = addUser($tab["nom"],$tab["contenu"]);
     <article>
         <div class="container">
             <h2>Inscription</h2>
-            <form method="post" action="inscription.php">
-                <div class="username">
-                    <input type="text" name="nom" placeholder="Nom">
-                    <input type="text" name="prenom" placeholder="Prenom">
-                </div>
+            <form id="registrationForm" method="post" action="inscription.php">
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="text" name="prenom" placeholder="Prenom">
                 <input type="text" name="pseudo" placeholder="Pseudo*" required>
                 <input id="email" type="email" name="email" placeholder="Email*" required>
+                <div id="emailError" class="error"></div>
                 <input id="password" type="password" name="password" placeholder="Mot de Passe*" required>
-                <input id="passwordVerif" type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" required>
-
+                <div id="passwordError" class="error"></div>
+                <input id="confirmationPassword" type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" required>
+                <input id="code" type="text" name="code" placeholder="Code formateur"/>
                 <button type="submit">S'inscrire'</button>
             </form>
             <a href="controller_connexion.php">J'ai déjà un compte</a>
