@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperQuizz - Nouveau Quizz</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/base_quizz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <main>
     <h2>Nouveau Quizz</h2>
-    <form method="POST">
-        <label for="title">Titre</label>
-        <input type="text" name="title" id="title"/>
-        <label for="description">Description</label>
+    <form id="newQuizz" method="POST">
+        <label for="title">
+            Titre
+            <input type="text" name="title" id="title"/>
+        </label>
+        <label for="description">
+            Description
+        </label>
         <textarea name="description" id="description" rows="5" cols="30">  
         </textarea>
         <label for="image">Image</label>
