@@ -1,0 +1,66 @@
+.upsidequiz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    }
+
+h2{
+    margin: 7vh;
+    text-align: center;
+}
+.category{
+        border: 3px solid black;
+        padding: 10px;
+        border-radius: 10px;
+ }
+
+
+ .question{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .question p{
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #3399ff ;
+    color: white;
+    display : inline-block;
+    border: 3px #3399ff;
+    border-radius: 10px;
+
+     
+ }
+
+.question li {
+    font-size: large;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #3399ff ;
+    color: white;
+    border-radius: 10px;
+    font-family: "madeTommy", sans-serif;
+    text-align: start;
+}
+
+li:hover {
+    cursor: pointer; /* Change le curseur en main au survol */
+    background-color: #ffc835;
+    border: 5px #3399ff;
+
+}
+
+ /* Classe pour le style actif */
+ .active {
+    background-color: #ffc835; /* Couleur de fond lorsqu'actif */
+    border: 2px solid black; /* Bordure lorsqu'actif */
+}
+
+

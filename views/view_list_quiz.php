@@ -28,8 +28,8 @@
             <a href="#">SQL</a>
         </div>
         <div class="boxquiz">
-            <a href="#"><img src="./src/imgs/js_logo.png" alt="Javascript"></a>
-            <a href="#">Javascript</a>
+            <a href="./controller_description_quiz.php"><img src="./src/imgs/js_logo.png" alt="Javascript"></a>
+            <a href="./controller_description_quiz.php">Javascript</a>
         </div>
         <div class="boxquiz">
             <a href="#"><img src="./src/imgs/react_logo.png" alt="React"></a>

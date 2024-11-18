@@ -6,8 +6,9 @@
     height: 50vh
 }
 
-#titreacceder {
-    font-size: 7vh;
+
+.boxplay p{
+    font-size: 4em;
 }
 
 button{
