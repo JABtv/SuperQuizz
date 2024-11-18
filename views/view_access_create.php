@@ -11,10 +11,14 @@
     <main>
         <section class="btnBox">
             <h2>Acceder aux quizz</h2>
-            <button>Jouer</button>
+            <a href="#">
+                <button>Jouer</button>
+            </a>
         </section>
         <section class="buttonBox">
             <h2>Creer un quizz</h2>
-            <button>Creer</button>
+            <a href="bass_quizz.php">
+                <button>Creer</button>
+            </a>
         </section>
     </main>

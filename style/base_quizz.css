@@ -1,14 +1,64 @@
 main {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
 }
-label {
-  display: flex;
-  flex-direction: row;
+main h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
-form#newQuizz {
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group textarea {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #3399ff;
+  border-radius: 5px;
+}
+.form-group textarea {
+  height: 100px;
+}
+.form-group .file-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3399ff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+.form-group .file-input i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.form-group .file-input span {
+  font-size: 16px;
+}
+.form-group .radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group .radio-group label {
+  margin: 0 10px;
+  font-weight: normal;
+}
+.form-group .radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+.submit-btn {
+  background-color: #3399ff;
+  color: #ffc835;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
