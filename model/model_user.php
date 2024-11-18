@@ -145,7 +145,7 @@ class ModelUser{
         //1Er Etape : Instancier l'objet de connexion PDO
         $bdd = new PDO('mysql:host=localhost;dbname=superquizz','root','',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
-        //Récupération du login depuis l'objet
+        //Récupération du pseudo depuis l'objet
         $avatar = $this->avatar;
 
         //Try...Catch
