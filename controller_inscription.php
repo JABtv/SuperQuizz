@@ -8,14 +8,12 @@ include './utils/functions.php';
 
 
 //Définition du code formateur
-$code = "2368";
+$codeFormateur = "2368";
 
 //Déclaration des variables d'affichage
+$message = "";
 
 
-//Inclure ma Vue : view_accueil.php
-include 'views/view_inscription.php';
-include 'views/view_footer.php';
 
 //Fonction pour tester les données du formulaire d'inscription
 
@@ -52,5 +50,46 @@ function dataTestInscription(){
 
 
 
+//Tester si le formulaire d'inscription m'est envoyé
+if(isset($_POST["Inscription"])){
+    //Je lance le test de mes données
+    $tab = dataTestInscription();
 
+    //Je vérifie si je suis dans un cas d'erreur
+    if($tab['erreur'] != ''){
+        $message = $tab['erreur'];
+    }else{
+        //Création de mon $user à partir de ModelUser
+        $user = new ModelUser($tab['pseudo']);
+        
+        //J'utilise les Setter pour donner à mon objet le nameUSer, firstNameUser et mdpUser
+        $user->setLastname($tab['nom'])->setFirstname($tab['prenom'])->setEmail($tab['email'])->setPassword($tab['password']);
+
+        if($tab['code'] === $codeFormateur){
+            $user->setRole(2);
+        }else{
+            if($tab['code'] != ''){
+                $message = "Code formateur invalide!";
+            }else{
+                $user->setRole(1);
+            } 
+        }
+
+        //Je vérifie que le pseudo est diponible
+        if(empty($user->readUserByAvatar())){
+            //Si la réponse de la BDD est vide, alors le Login est disponible (car non trouvé en BDD), je peux donc l'utiliser.
+            //Je lance l'ajout de mon utilisateur en BDD
+            $message = $user->addUser();
+
+        }else{
+            //Si la réponse de la BDD n'est pas vide, alors ce le login est trouvé en BDD, donc le login n'est pas disponible, et je renvoie un message d'erreur
+            $message="Ce Pseudo existe déjà en BDD !";
+        }
+    }
+}
+
+
+//Inclure ma Vue :
+include './views/view_inscription.php';
+include './views/view_footer.php';
 ?>

@@ -40,26 +40,37 @@ $message = addUser($tab["nom"],$tab["contenu"]);
 */
 ?>
 
-<link rel="stylesheet" href="style/style.css">
-<link rel="stylesheet" href="style/login.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperQuizz - Inscription</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style/login.css">
+</head>
+<body>
 <main>
     <article>
         <div class="container">
+            <p><?php echo $message ?></p>
             <h2>Inscription</h2>
-            <form id="registrationForm" method="post" action="inscription.php">
+            <form id="registrationForm" method="post" action="">
+            <!-- <form id="registrationForm" method="post" action="inscription.php"> -->
                 <input type="text" name="nom" placeholder="Nom">
                 <input type="text" name="prenom" placeholder="Prenom">
-                <input type="text" name="pseudo" placeholder="Pseudo*" required>
-                <input id="email" type="email" name="email" placeholder="Email*" required>
+                <input type="text" name="pseudo" placeholder="Pseudo*" value="Toto" required>
+                <input id="email" type="email" name="email" placeholder="Email*" value="toto.titi@gmail.com" required>
                 <div id="emailError" class="error"></div>
-                <input id="password" type="password" name="password" placeholder="Mot de Passe*" required>
+                <input id="password" type="password" name="password" placeholder="Mot de Passe*"  value="P@ssw0rd" required>
                 <div id="passwordError" class="error"></div>
-                <input id="confirmationPassword" type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" required>
+                <input id="confirmationPassword" type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" value="P@ssw0rd" required>
                 <input id="code" type="text" name="code" placeholder="Code formateur"/>
-                <button type="submit">S'inscrire'</button>
+                <button type="submit">Inscription</button>
             </form>
             <a href="controller_connexion.php">J'ai déjà un compte</a>
         </div>
     </article>
 </main>
-<script src="script/regex.js"></script>
+<!-- <script src="script/regex.js"></script> -->
