@@ -52,9 +52,9 @@ $message = addUser($tab["nom"],$tab["contenu"]);
                     <input type="text" name="prenom" placeholder="Prenom">
                 </div>
                 <input type="text" name="pseudo" placeholder="Pseudo*" required>
-                <input type="email" name="email" placeholder="Email*" required>
-                <input type="password" name="password" placeholder="Mot de Passe*" required>
-                <input type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" required>
+                <input id="email" type="email" name="email" placeholder="Email*" required>
+                <input id="password" type="password" name="password" placeholder="Mot de Passe*" required>
+                <input id="passwordVerif" type="password" name="confirmationPassword" placeholder="Confirmation Mot de Passe*" required>
 
                 <button type="submit">S'inscrire'</button>
             </form>
@@ -62,3 +62,4 @@ $message = addUser($tab["nom"],$tab["contenu"]);
         </div>
     </article>
 </main>
+<script src="script/regex.js"></script>
